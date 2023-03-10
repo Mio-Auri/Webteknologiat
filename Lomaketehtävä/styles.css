@@ -1,0 +1,21 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    width: 60%;
+}
+
+fieldset {
+    background-color: rgb(191, 87, 212);
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 20px;
+    border-color: chocolate;
+    margin-bottom: 3px;
+}
+
+legend {
+
+    font-size: 30px;
+}
