@@ -3,7 +3,8 @@
 }
 
 body {
-    width: 60%;
+    width: 40%;
+    align-content: center;
 }
 
 fieldset {
@@ -32,4 +33,25 @@ textarea:hover {
 
 button:hover {
     background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+fieldset.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
