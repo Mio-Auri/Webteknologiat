@@ -3,6 +3,12 @@
 
 <head>
     <title>Kurssit</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Patrick+Hand&family=Rubik+Iso&family=Sacramento&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -10,86 +16,122 @@
         <h1>Kurssit</h1>
     </header>
     <main>
-        <h3>Kurssilista</h3>
+        <div class="dropdown">
+            <laber for="dropdown" id="myDropdown">Kurssilista</select>
+                <select id="dropdown" class="dropdown-content">
+                    <option>Select</option>
+                    <option>Liiketalouden matematiikan perusteet</option>
+                    <option>Ohjelmoinnin perusteet</option>
+                    <option>Olio-ohjelmoinnin perusteet</option>
+                    <option>Työvälineosaaminen</option>
+                    <option>Webteknologiat</option>
+                </select>
+        </div>
+        <!-- <h3>Kurssilista</h3> 
         <ul>
             <li>Liiketalouden matematiikan perusteet</li>
             <li>Ohjelmoinnin perusteet</li>
             <li>Olio-ohjelmoinnin perusteet</li>
             <li>Työvälineosaaminen</li>
             <li>Webteknologiat</li>
-        </ul>
+        </ul> -->
         <br>
-        <h3>Kurssien tiedot</h3>
-        <h4>Liiketalouden matematiikan perusteet</h4>
-        <p>Liketalouden matematiikan perusteet -kurssi on enemmänkin kertauskurssi.
-            Kerrattiin 7-luokan matikkaa.</p>
-        <h4>Ohjelmoinnin perusteet</h4>
-        <p>Opiskelija osaa <br>
-            - suunnittella ja toteuttaa pienehköjä ohjelmia itsenäisesti: <br>
-            - jakaa ohjelman erikseen toteuttavissa oleviin osiin tarkoituksen mukaisesti sekä suunnitella ja toteuttaa
-            yksinkertaiset tietorakenteet ja algoritmit. <br>
-            - arvioida toisen kirjoittamaa ohjelman rakennetta <br></p>
-        <h4>Työvälineosaaminen</h4>
-        <p>
-            Opiskelija osaa <br>
-            - hyödyntää opinnoissaan keskeisimpiä toimistosovelluksia <br>
-            - hyödyntää pilvipalveluita osana ryhmätyöskentelyä <br>
-            - toimia verkko-opiskeluympäristössä <br>
-        </p>
-        <h4>Olio-ohjelmoinnin perusteet</h4>
-        <p>Opiskelija osaa <br>
-            - osaa soveltaa olio-ohjelmoinnin perusrakenteita, <br>
-            - osaa ohjelmoida itsenäisesti pieniä olio-ohjelmia, <br>
-            - pystyy soveltamaan oppimaansa myös muissa oliokielissä, <br>
-            - tuntee abstraktien tietotyyppien perusteet <br>
-            - tuntee UML:n peruskäsitteet.</p>
-        <h4>Webteknologiat</h4>
-        <p>Opiskelija <br>
-            - hallitsee web front end -kehittäjän työkalupakkiin kuuluvat tekniikat. <br>
-            - osaa suunnitella ja toteuttaa eri päätelaitteille mukautuvan web-sivuston. <br>
-            - osaa hyödyntää valmiita käyttöliittymäkehyksiä ja lisäosia. <br>
-            - tuntee web-ohjelmoinnissa käytettävien ohjelmointikielten merkityksen selaimessa toimivan sovelluksen
-            toteutuksessa.</p>
+        <div class="float-container">
+            <h3>Kurssien tiedot</h3>
+            <div class="float-child">
+                <div class="courseInfo">
+                    <h4>Liiketalouden matematiikan perusteet</h4>
+                    <p>Liketalouden matematiikan perusteet -kurssi on enemmänkin kertauskurssi.
+                        Kerrattiin 7-luokan matikkaa.</p>
+                </div>
+                <div class="courseInfo">
+                    <h4>Ohjelmoinnin perusteet</h4>
+                    <p>Opiskelija osaa <br>
+                        - suunnittella ja toteuttaa pienehköjä ohjelmia itsenäisesti: <br>
+                        - jakaa ohjelman erikseen toteuttavissa oleviin osiin tarkoituksen mukaisesti sekä suunnitella
+                        ja
+                        toteuttaa
+                        yksinkertaiset tietorakenteet ja algoritmit. <br>
+                        - arvioida toisen kirjoittamaa ohjelman rakennetta <br></p>
+                </div>
+                <div class="courseInfo">
+                    <h4>Työvälineosaaminen</h4>
+                    <p>
+                        Opiskelija osaa <br>
+                        - hyödyntää opinnoissaan keskeisimpiä toimistosovelluksia <br>
+                        - hyödyntää pilvipalveluita osana ryhmätyöskentelyä <br>
+                        - toimia verkko-opiskeluympäristössä <br>
+                    </p>
+                </div>
+                <div class="courseInfo">
+                    <h4>Olio-ohjelmoinnin perusteet</h4>
+                    <p>Opiskelija osaa <br>
+                        - osaa soveltaa olio-ohjelmoinnin perusrakenteita, <br>
+                        - osaa ohjelmoida itsenäisesti pieniä olio-ohjelmia, <br>
+                        - pystyy soveltamaan oppimaansa myös muissa oliokielissä, <br>
+                        - tuntee abstraktien tietotyyppien perusteet <br>
+                        - tuntee UML:n peruskäsitteet.</p>
+                </div>
+                <div class="courseInfo">
+                    <h4>Webteknologiat</h4>
+                    <p>Opiskelija <br>
+                        - hallitsee web front end -kehittäjän työkalupakkiin kuuluvat tekniikat. <br>
+                        - osaa suunnitella ja toteuttaa eri päätelaitteille mukautuvan web-sivuston. <br>
+                        - osaa hyödyntää valmiita käyttöliittymäkehyksiä ja lisäosia. <br>
+                        - tuntee web-ohjelmoinnissa käytettävien ohjelmointikielten merkityksen selaimessa toimivan
+                        sovelluksen
+                        toteutuksessa.</p>
+                </div>
+            </div>
+        </div>
+        <div class="float-child">
+            <img class="wimdy" src="fff.jpg" alt="it f*cken wimdy">
+        </div>
         <br>
-        <img src="fff.jpg" alt="it f*cken wimdy">
-        <br>
-        <h2>Lisätietoja</h2>
-        <table>
-            <tr>
-                <th>Kurssi</th>
-                <th>Opintopisteiden määrä</th>
-                <th>Arvosana</th>
-            </tr>
-            <tr>
-                <td>Liiketalouden matematiikan perusteet</td>
-                <td>3</td>
-                <td>Hyväksytty</td>
-            </tr>
-            <tr>
-                <td>Ohjelmoinnin perusteet</td>
-                <td>5</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>Olio-ohjelmoinnin perusteet</td>
-                <td>5</td>
-                <td>Odottaa</td>
-            </tr>
-            <tr>
-                <td>Työvälineosaaminen</td>
-                <td>5</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>Webteknologiat</td>
-                <td>5</td>
-                <td>Kesken</td>
-            </tr>
-        </table>
+        <div class="more-info">
+            <h2>Lisätietoja</h2>
+            <table>
+                <tr>
+                    <th>Kurssi</th>
+                    <th>Opintopisteiden määrä</th>
+                    <th>Arvosana</th>
+                </tr>
+                <tr>
+                    <td>Liiketalouden matematiikan perusteet</td>
+                    <td>3</td>
+                    <td>Hyväksytty</td>
+                </tr>
+                <tr>
+                    <td>Ohjelmoinnin perusteet</td>
+                    <td>5</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Olio-ohjelmoinnin perusteet</td>
+                    <td>5</td>
+                    <td>Odottaa</td>
+                </tr>
+                <tr>
+                    <td>Työvälineosaaminen</td>
+                    <td>5</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Webteknologiat</td>
+                    <td>5</td>
+                    <td>Kesken</td>
+                </tr>
+            </table>
+            <a href="https://opinto-opas.lab.fi/fi/68177/fi/68129/LLPRIT22S/year/2022"><img src="LAB-790444.jpg"
+                    class="elab"></a>
+        </div>
+
+
+
     </main>
     <br>
     <footer>
-        <a href="https://opinto-opas.lab.fi/fi/68177/fi/68129/LLPRIT22S/year/2022">Kato ***** eLABista</a>
+
     </footer>
 </body>
 

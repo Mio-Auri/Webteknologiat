@@ -1,0 +1,60 @@
+body {
+    background-color: #ccd7e6;
+    width: auto;
+}
+
+h3,
+h1 {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+}
+
+table {
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    background-color: bisque;
+}
+
+tr {
+    border: 1px solid;
+}
+
+main {
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.courseInfo {
+    background-color: darkgray;
+    margin: 3px;
+    width: 600px;
+}
+
+p {
+    font-family: 'Patrick Hand', cursive;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+h4 {
+    padding: 5px;
+}
+
+.elab {
+    width: 300px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.more-info {
+    ;
+}
