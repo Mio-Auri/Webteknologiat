@@ -1,0 +1,61 @@
+body {
+    margin: auto;
+}
+
+fieldset {
+    background-color: #0f4c5c;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 3px;
+}
+
+legend {
+    font-size: 30px;
+}
+
+input,
+textarea {
+    background-color: rgb(244, 215, 250);
+    border-radius: 3px;
+
+}
+
+input:hover,
+textarea:hover {
+    background-color: darkgrey;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+fieldset.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: row;
+}
