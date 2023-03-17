@@ -3,8 +3,8 @@
 }
 
 body {
-    width: 60%;
-    align-content: center;
+    width: 40%;
+    margin: auto;
 }
 
 fieldset {
@@ -38,11 +38,15 @@ button:hover {
 .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 3px;
+    margin-bottom: 8px;
 }
 
 .input-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 3px;
@@ -54,4 +58,9 @@ fieldset.container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: row;
 }
