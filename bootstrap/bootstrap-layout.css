@@ -1,0 +1,14 @@
+.col-6 {
+    border-color: plum;
+    border-style: dashed;
+    border-width: 3px;
+    margin: 5px;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.card-body {
+    margin: 5px;
+}
