@@ -63,7 +63,7 @@ footer {
 .card {
     margin: 5px;
     background-color: #dac4b5;
-    height: 500px;
+    
 }
 .card:hover{
     box-shadow: 5px 5px 5px #359065;
@@ -78,6 +78,7 @@ footer {
 h3 {
     margin: 15px;
     margin-top: 10px;
+    text-align: center;
 }
 
 .credits {
