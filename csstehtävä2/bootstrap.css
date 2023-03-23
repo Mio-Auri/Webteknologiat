@@ -1,10 +1,7 @@
 .bongo {
-    padding: 40px;
-    border-style: double;
-    border-width: 5px;
-    border-color:#113536;
-    border-radius: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .grid-container {
@@ -32,6 +29,16 @@ main {
 
 main.cat {
     padding: 200px;
+}
+
+.big-button {
+    padding: 40px;
+    border-style: double;
+    border-width: 5px;
+    border-color:#113536;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 footer {
