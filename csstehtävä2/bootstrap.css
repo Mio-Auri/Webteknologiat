@@ -1,5 +1,10 @@
 .bongo {
-    margin-top: 70px;
+    padding: 40px;
+    border-style: double;
+    border-width: 5px;
+    border-color:#113536;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .grid-container {
@@ -14,16 +19,65 @@
 
 header {
     grid-area: header;
-    background-color: antiquewhite;
+    background-color: #113536;
 }
 
 main {
     grid-area: main;
-    background-color: bisque;
-    margin-top: 60px;
+    background-color: #EEE8C2;
+    margin-top: 56px;
+    justify-items: center;
+    padding: 50px;
+}
+
+main.cat {
+    padding: 200px;
 }
 
 footer {
     grid-area: footer;
-    background-color: antiquewhite;
+    background-color: #113536;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.navbar {
+    background-color: #D8A390;
+}
+
+.tag-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-left: 150px;
+}
+
+.card {
+    margin: 5px;
+    background-color: #dac4b5;
+    height: 500px;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px #359065;
+}
+
+.card-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+h3 {
+    margin: 15px;
+    margin-top: 10px;
+}
+
+.credits {
+    padding: 15px;
+    color:#EEE8C2;
+}
+
+a {
+    color: black;
 }

@@ -4,7 +4,7 @@
 
 <head>
     <title>Learn HTML</title>
-    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+        <link href="bootstrap.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -36,7 +36,7 @@
 
         <!--HEADER: navbar-->
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Navigate</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -72,13 +72,87 @@
 
         <!--MAIN: tagien esittely-->
         <main>
+            <h3>Tags</h3>
+            <div class="tag-cards container center">
+                <div class="row align-items-center">
+                <div class="card col-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">&lt;html&gt;</h5>
+                        <p class="card-text">The &lt;html&gt; tag represents the root of an HTML document.</p>
+                        <p>The &lt;html&gt; tag is the container for all other HTML elements (except for the &lt;!DOCTYPE&gt; tag).</p>
+                        <a href="https://www.w3schools.com/tags/tag_html.asp" class="card-link">More info on w3schools</a>
+                    </div>
+                  </div>
 
+                  <div class="card col-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">&lt;head&gt;</h5>
+                        <p class="card-text">The &lt;head&gt; element is a container for metadata (data about data) and is placed between 
+                        the &lt;html&gt; tag and the &lt;body&gt; tag.</p>
+                        <p>Metadata is data about the HTML document. Metadata is not displayed.</p>
+                        <p>Metadata typically define the document title, character set, styles, scripts, and other meta information.</p>
+                        <a href="https://www.w3schools.com/tags/tag_head.asp" class="card-link">More info on w3schools</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">&lt;body&gt;</h5>
+                        <p class="card-text">The &lt;body&gt; tag defines the document's body.</p>
+                        <p>The &lt;body&gt; element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</p>
+                        <a href="https://www.w3schools.com/tags/tag_body.asp" class="card-link">More info on w3schools</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">&lt;p&gt;</h5>
+                      <p class="card-text">The &lt;p&gt; tag defines a paragraph.</p>
+                      <a href="https://www.w3schools.com/tags/tag_p.asp" class="card-link">More info on w3schools</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">&lt;img&gt;</h5>
+                      <p class="card-text">The &lt;img&gt; tag is used to embed an image in an HTML page.</p>
+                      <a href="https://www.w3schools.com/tags/tag_img.asp" class="card-link">More info on w3schools</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">&lt;a&gt;</h5>
+                      <p class="card-text">The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another.</p>
+                      <a href="https://www.w3schools.com/tags/tag_a.asp" class="card-link">More info on w3schools</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">&lt;br&gt;</h5>
+                      <p class="card-text">The &lt;br&gt; tag inserts a single line break.</p>
+                      <a href="https://www.w3schools.com/tags/tag_br.asp" class="card-link">More info on w3schools</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">&lt;h1&gt;</h5>
+                      <p class="card-text">The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings.</p>
+                      <a href="https://www.w3schools.com/tags/tag_hn.asp" class="card-link">More info on w3schools</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
         </main>
 
         <!--FOOTER: credits-->
         <footer>
-            <h4>Credits:</h4>
-            <p>Bongo cat by: Eric Huber</p>
+            <div class="credits">
+                <h4>Credits:</h4>
+                <p>Bongo cat by: Eric Huber</p>
+            </div>
         </footer>
     </div>
 </body>
